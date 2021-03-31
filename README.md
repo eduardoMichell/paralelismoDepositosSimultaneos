@@ -4,7 +4,7 @@
 
 - O algoritmo foi feito na linguagem de programação Java, usando a classe nativa do próprio, a classe Threads. Foi feito uma classe chamada Paralelismo onde foi definido dois atributos, transações e saldo, e um constante total. A Classe tem uma função que se inicia a Thread e uma outra função estática que faz o cálculo do deposito.
 
-###Testes
+####Testes
 
 - Foi criado uma classe para testar o programa, chamada “ParalelismoTestCase”, essa classe tem um “Main” que instancia dois objetos Paralelismo e inicia a Thread com a função “start()”. O algoritmo executa o calculo de forma correta em certos casos, e algumas vezes o valor do saldo ou transações aparece de forma incorreta.
 
@@ -19,4 +19,4 @@
 ![](https://github.com/eduardoMichell/paralelismoDepositosSimultaneos/blob/main/images/3.PNG?raw=true)
 > Figura 3. Teste com todos valores corretos
                 
-###Solução                
+####Solução                
