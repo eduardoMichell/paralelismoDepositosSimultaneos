@@ -24,6 +24,5 @@ public class Paralelismo extends Thread {
             saldo += 10;
             transacoes++;
         }
-
     }
 }
